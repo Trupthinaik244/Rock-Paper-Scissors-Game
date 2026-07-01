@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>ROCK PAPER SCISSORS</h1>
+<p>Choose your move!</p>
+
+<div class="choices">
+
+<div class="card" onclick="play('Rock')">
+<img src="rock.png">
+<h2>ROCK</h2>
+</div>
+
+<div class="card" onclick="play('Paper')">
+<img src="paper.png">
+<h2>PAPER</h2>
+</div>
+
+<div class="card" onclick="play('Scissors')">
+<img src="scissors.png">
+<h2>SCISSORS</h2>
+</div>
+
+</div>
+
+<div class="result-box">
+
+<div>
+<h2>YOU</h2>
+<img id="userImg" src="rock.png">
+</div>
+
+<div>
+<h1>VS</h1>
+<h2 id="result">Choose a Move</h2>
+<button onclick="location.reload()">Play Again</button>
+</div>
+
+<div>
+<h2>COMPUTER</h2>
+<img id="compImg" src="rock.png">
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
