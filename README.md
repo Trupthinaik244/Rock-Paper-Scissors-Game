@@ -49,7 +49,7 @@ Rock-Paper-Scissors/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Rock-Paper-Scissors.git
+git clone https://github.com/Trupthinaik224/Rock-Paper-Scissors-Game.git
 ```
 
 ### Navigate to the Project Folder
